@@ -3,7 +3,7 @@ using namespace std;
 int main (){
     int num,rem;
     int sum=0;
-    cout<<"Enter a three digit number:";
+    cout<<"Enter a four digit number:";
     cin>>num;
     int Originalnum=num;
     while(num>0){
