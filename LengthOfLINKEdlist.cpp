@@ -27,9 +27,5 @@ int lengthOfLL(Node* head){
 int main(){
     vector<int> arr={12,5,8,7};
     Node* head=convertArr2LL(arr);
-    Node* temp=head;
-    while(temp){
-        cout<<temp->data<<" ";
-        temp=temp->next;
-    }
+    cout<<lengthOfLL(head);
 }
