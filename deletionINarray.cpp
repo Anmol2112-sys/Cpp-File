@@ -16,7 +16,7 @@ cout<<"Delete is not possible"<<endl;
 for(int i=loca-1;i<5;i++)
 {    arr[i]=arr[i+1];
 
-}
+} 
 cout<<"Array after delete the element"<<endl;
 for(int i=0;i<5;i++){
     cout<<arr[i]<<endl;

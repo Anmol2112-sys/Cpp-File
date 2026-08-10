@@ -10,7 +10,7 @@ int reverse(int n){
     return revNum;
 }
 int main(){
-    int revNum = reverse(5732);
+    int revNum = reverse(005);
     cout << "After reversing the number: " << revNum << endl;
     return 0;
 }

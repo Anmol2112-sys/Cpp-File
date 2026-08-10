@@ -16,3 +16,17 @@ int binarySearch(const vector<int>& arr, int target) {
     }
     return -1; // Target not found
 }
+
+int main() {
+    vector<int> arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int target = 5;
+
+    int result = binarySearch(arr, target);
+    if (result != -1) {
+        cout << "Element found at index: " << result << endl;
+    } else {
+        cout << "Element not found in the array." << endl;
+    }
+
+    return 0;
+}

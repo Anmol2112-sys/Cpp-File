@@ -6,7 +6,7 @@ int main(){
         if(i%2==1){
         for(int j=1;j<=i;j++){
             
-                cout<<c;
+                cout<<c; 
             }
         }
             else{

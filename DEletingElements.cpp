@@ -15,7 +15,7 @@ int main() {
     cin>>pos;
 
     if(pos<0 || pos>=n){
-        cin>>"Invalid Position";
+        cout<<"Invalid Position";
         return 0;
     }
     for(int i=pos;i<n-1;i++){

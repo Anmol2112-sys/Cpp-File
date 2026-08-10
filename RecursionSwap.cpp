@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 void swap(int &a,int &b){
+    a=65;
+    b=76;
    a=a+b;
    b=a-b;
    a=a-b;

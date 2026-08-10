@@ -1,37 +1,15 @@
 #include<iostream>
-#include<vector>
 using namespace std;
-int main()
-{
-    vector<int> arr = {1,2,3,4,5,8};
-    int target = 3;
-    int st = 0;
-    int end = arr.size();
-    int mid = st + (end-st)/2;
-while(st>end)
-{
-    int mid = st + (end-st)/2;
+int main() {
+    int a,b;
+    cout<<"Enter the value of a:";
+    cin>>a;
+    cout<<"Enter the value of b:";
+    cin>>b;
+    cout<<"Before Swapping:"<<a<<" "<<b<<endl;
+    a=a^b;
+    b=a^b;
+    a=a^b;
 
-    if(target <arr[mid])
-    {
-        end = mid-1;
-        st=0;
-       
-    }
-    else if(target>arr[mid])
-    {
-        st = mid +1;
-        
-    }
-    else if(target== arr[mid])
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-     st++;
-     
-}
+    cout<<"After Swapping:"<<a<<" "<<b<<endl;
 }
