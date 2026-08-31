@@ -9,9 +9,9 @@ int binarySearch(const vector<int>& arr, int target) {
         if (arr[mid] == target) {
             return mid; // Target found
         } else if (arr[mid] < target) {
-            left = mid + 1; // Search in the right half
+            left = mid + 1; 
         } else {
-            right = mid - 1; // Search in the left half
+            right = mid - 1;
         }
     }
     return -1; // Target not found

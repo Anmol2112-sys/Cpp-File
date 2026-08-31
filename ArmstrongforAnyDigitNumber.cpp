@@ -17,7 +17,6 @@ int main() {
         temp /= 10;
     }
 
-    // Calculate Armstrong sum
     temp = n;
     while(temp > 0) {
         r = temp % 10;

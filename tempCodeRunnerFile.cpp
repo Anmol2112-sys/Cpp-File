@@ -1,15 +1,14 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int main() {
-    int a,b;
-    cout<<"Enter the value of a:";
-    cin>>a;
-    cout<<"Enter the value of b:";
-    cin>>b;
-    cout<<"Before Swapping:"<<a<<" "<<b<<endl;
-    a=a^b;
-    b=a^b;
-    a=a^b;
+int main(){
+    int n;
+    cin>>n;
 
-    cout<<"After Swapping:"<<a<<" "<<b<<endl;
+    for(int i=0;i*i<=n;i++){
+        if(n%i==0){
+            cout<<"It is not a prime number"<<endl;
+            return 0;
+        }
+    }
+    cout<<"It is a prime number"<<endl;
 }
