@@ -7,11 +7,8 @@ int main () {
 	
 		if(i%2==0){
 			s=s+i;
-			
-		cout<<"Sum of Numbers:"<<s<<endl;
-			
-			
-		}
+			}
 	}
+	cout<<"Sum of Numbers:"<<s<<endl;
 	return 0;
 }

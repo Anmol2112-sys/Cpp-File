@@ -10,3 +10,11 @@ public:
         
     }
 };
+
+int main() {
+    Solution s;
+    string columnTitle = "AB";
+    int result = s.titleToNumber(columnTitle);
+    cout << "The column number for " << columnTitle << " is: " << result << endl;
+    return 0;
+}
